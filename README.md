@@ -13,7 +13,6 @@ Pixelmon (ポケモンmod) でポケモンと一緒にMinecraftで遊ぶこと�
 ## 🌐 Demo
 
 ![Minecraft で Pixelmon を利用する](./pixelmon.png "scratch")
-![Scratch と Minecraft を連携する](./scratch.png "scratch")
 
 ## 📦 ディレクトリ構造
 
@@ -28,7 +27,7 @@ Pixelmon (ポケモンmod) でポケモンと一緒にMinecraftで遊ぶこと�
 │    ├── raspberryjammod.cfg
 │    └── splash.properties
 ├── logs
-├── mcpipy (Pythonで作成したコードを格納)
+├── mcpipy (Pythonで作成したプログラムコードを格納)
 ├── mods
 │    ├── OptiFine_1.12.2_HD_U_F5.jar
 │    ├── Pixelmon-1.12.2-8.1.2-universal.jar
@@ -40,6 +39,7 @@ Pixelmon (ポケモンmod) でポケモンと一緒にMinecraftで遊ぶこと�
 │    └── quests
 ├── resourcepacks
 ├── saves
+├── scratch (Scratchで作成したプログラムコードを格納)
 ├── server-resource-packs
 ├── servers.dat
 ├── shaderpacks
@@ -61,24 +61,29 @@ https://drive.google.com/file/d/1Uvot1pSha9olLAzhwvO7j6OxyrRlgcPi/view?usp=shari
 ## 🖊️ 事前準備
 
 Minecraft を起動したら、「起動構成」-「新規作成」からModを利用できるように設定をします。
+```
 名前：ポケモン8.1-1.12.2-14.23.5.2854
 バージョン：release 1.12.2-forge-14.23.5.2854
 ゲームディレクトリ：＜本プロジェクトをCloneしたディレクトリ＞
+```
 
 ## 💬 使い方
 
-Python で作成したコードを実行してみる
+#### Python で作成したコードを実行してみる
+mcpipy ディレクトリに格納したPythonのコードは、/py コマンドで呼び出すことができます。
 ```
 # 巨大な時計を出現させます
 /py clock
 ```
 
-Scratch で作成したコードを実行してみる
+#### Scratch で作成したコードを実行してみる
 以下からScratch3 を開き、左下の拡張機能ボタンから「Micramming」を選択します。
 https://manaviva.github.io/scratch-gui/
+![Scratch と Minecraft を連携する](./scratch.png "scratch")
+上記は、自分の近くに石のブロックを10個並べて作成するプログラムです。
+scratch ディレクトリにあるコードを「ファイル」-「コンピュータから読み込む」するとロードされるのでフラッグをクリックすると実行されます。
 
-
-その他のよく使うコマンド
+#### その他のよく使うコマンド
 ```
 # ポケモンを取得する
 /pokegive プレーヤー名 ポケモン名
