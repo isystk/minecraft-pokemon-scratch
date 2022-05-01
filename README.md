@@ -48,7 +48,7 @@ Pixelmon (ポケモンmod) でポケモンと一緒にMinecraftで遊ぶこと�
 └── usernamecache.json
 ```
 
-## 🔧 環境の構築
+## 🖊️ 事前準備
 
 GitからプロジェクトをCloneします。
 ```shell
@@ -58,7 +58,7 @@ git clone git@github.com:isystk/minecraft-pokemon-scratch.git
 以下からダウンロードしたmods.zipファイルを解凍して、3つのJARファイルをmodsディレクトリに配置します。
 https://drive.google.com/file/d/1Uvot1pSha9olLAzhwvO7j6OxyrRlgcPi/view?usp=sharing
 
-## 🖊️ 事前準備
+## 🔧 環境の設定
 
 Minecraft を起動したら、「起動構成」-「新規作成」からModを利用できるように設定をします。
 ```
