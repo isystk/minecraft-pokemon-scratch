@@ -10,13 +10,10 @@ Pixelmon (ポケモンmod) でポケモンと一緒にMinecraftで遊ぶこと�
 - プログラミングに興味がある小学生とその保護者の方
 - これを機にプログラミングを学んでみたい人
 
-## 🖊️ 学習の流れ
-
-
 ## 🌐 Demo
 
-![Scratch と Minecraft を連携する](./scratch.png "scratch")
 ![Minecraft で Pixelmon を利用する](./pixelmon.png "scratch")
+![Scratch と Minecraft を連携する](./scratch.png "scratch")
 
 ## 📦 ディレクトリ構造
 
@@ -31,6 +28,7 @@ Pixelmon (ポケモンmod) でポケモンと一緒にMinecraftで遊ぶこと�
 │    ├── raspberryjammod.cfg
 │    └── splash.properties
 ├── logs
+├── mcpipy (Pythonで作成したコードを格納)
 ├── mods
 │    ├── OptiFine_1.12.2_HD_U_F5.jar
 │    ├── Pixelmon-1.12.2-8.1.2-universal.jar
@@ -52,20 +50,42 @@ Pixelmon (ポケモンmod) でポケモンと一緒にMinecraftで遊ぶこと�
 
 ## 🔧 環境の構築
 
+GitからプロジェクトをCloneします。
 ```shell
 git clone git@github.com:isystk/minecraft-pokemon-scratch.git
-cd minecraft-pokemon-scratch/mods
-curl -O 
 ```
 
+以下からダウンロードしたmods.zipファイルを解凍して、3つのJARファイルをmodsディレクトリに配置します。
+https://drive.google.com/file/d/1Uvot1pSha9olLAzhwvO7j6OxyrRlgcPi/view?usp=sharing
 
+## 🖊️ 事前準備
+
+Minecraft を起動したら、「起動構成」-「新規作成」からModを利用できるように設定をします。
+名前：ポケモン8.1-1.12.2-14.23.5.2854
+バージョン：release 1.12.2-forge-14.23.5.2854
+ゲームディレクトリ：＜本プロジェクトをCloneしたディレクトリ＞
 
 ## 💬 使い方
 
+Python で作成したコードを実行してみる
+```
+# 巨大な時計を出現させます
+/py clock
+```
 
+Scratch で作成したコードを実行してみる
+以下からScratch3 を開き、左下の拡張機能ボタンから「Micramming」を選択します。
 https://manaviva.github.io/scratch-gui/
 
+
+その他のよく使うコマンド
 ```
+# ポケモンを取得する
+/pokegive プレーヤー名 ポケモン名
+
+# 野生のポケモンを出す
+/pokespawn ピカチュウ
+
 ＃ 朝にする
 /time set day
 
@@ -75,12 +95,6 @@ https://manaviva.github.io/scratch-gui/
 
 # 造形物を作る
 /struc
-
-# ポケモンを取得する
-/pokegive プレーヤー名 ポケモン名
-
-# 野生のポケモンを出す
-/pokespawn ピカチュウ
 ```
 
 ## 🎨 参考
@@ -89,6 +103,7 @@ https://manaviva.github.io/scratch-gui/
 | :---------------------------------------| :-------------------------------|
 | [マイクラでポケモンmod(Ver.8.1)の入れ方](https://homanage.net/game/index.php?category=minecraft&name=pokemon81)| マイクラでポケモンmod(Ver.8.1)の入れ方|
 | [スクラッチ3.0を使ったマイクラプログラミング学習の始め方](https://rserver-osusume.com/programming-school/minecraft-programming-with-scratch/)| スクラッチ3.0を使ったマイクラプログラミング学習の始め方|
+| [利用可能なポケモン](https://pixelmonmod.com/wiki/Available_Pok%C3%A9mon/ja)| 利用可能なポケモン|
 
 
 ## 🎫 Licence
