@@ -50,6 +50,16 @@ Pixelmon (ポケモンmod) でポケモンと一緒にMinecraftで遊ぶこと�
 
 ## 🖊️ 事前準備
 
+
+以下からMinecraftをインストールします。
+https://www.minecraft.net/ja-jp/download
+
+以下からJDK17をインストールします。
+https://adoptium.net/temurin/releases/?version=17
+
+以下からforge 1.12.2 のバージョン 14.23.5.2854をインストールします。
+https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html
+
 GitからプロジェクトをCloneします。
 ```shell
 git clone git@github.com:isystk/minecraft-pokemon-scratch.git
