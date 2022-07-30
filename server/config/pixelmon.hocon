@@ -442,7 +442,7 @@ Spawning {
     # Replaces Minecraft's villagers with Pixelmon NPCs.
     replaceMCVillagers=true
     # Shiny calculation uses 1/(Shiny rate) to get odds of becoming Shiny.
-    shinySpawnRate=4096
+    shinySpawnRate=1024
     # The number of spawn passes made per minute. Decrease for better performance.
     spawnFrequency=60
     # Sets spawning of Gyms in close proximity to newly generated towns on or off.
