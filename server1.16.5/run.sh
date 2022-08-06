@@ -1,6 +1,6 @@
 
 # mods copy
-#cp -rp ../mods/* ./mods/
+cp -rp ../mods/* ./mods/
 
 # show local ip address
 ifconfig | grep "inet" | grep -v 127.0.0.1
