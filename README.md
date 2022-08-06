@@ -148,7 +148,7 @@ scratch ディレクトリにあるコードを「ファイル」-「コンピ�
 
 | プロジェクト| 概要|
 | :---------------------------------------| :-------------------------------|
-| [Reforged 公式サイト](https://reforged.gg/)| マイクラでポケモンmod(Ver.8.1)の入れ方|
+| [Reforged 公式サイト](https://reforged.gg/)| Reforged 公式サイト|
 | [スクラッチ3.0を使ったマイクラプログラミング学習の始め方](https://rserver-osusume.com/programming-school/minecraft-programming-with-scratch/)| スクラッチ3.0を使ったマイクラプログラミング学習の始め方|
 | [利用可能なポケモン](https://pixelmonmod.com/wiki/Available_Pok%C3%A9mon/ja)| 利用可能なポケモン|
 
